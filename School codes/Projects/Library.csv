@@ -1,0 +1,8 @@
+Book code,Book Name,Genre,Author,Price,Late return fees,Status,Issue Date,Return Date,Name,Contact No.
+#1,Lord of The Rings,Fantasy,J.R.R. Tolkien,₹500,₹260,0,2072024,23455,aniket,44334343434
+#2,The Hobbit,Fantasy,J.R.R. Tolkien,₹450,₹200,1,,,,
+#3,The Horizon,Psychology,Ji-Hun Jeong,₹250,₹150,1,,,,
+#4,Neuromancer,Cyberpunk,William Gibson,₹350,₹100,1,,,,
+#5,Crime & Punishment,2,F. Dostoevsky,₹400,₹180,1,,,,
+#6,Vagabond,Adventure,Inoue Takehiko,₹400,₹300,0,12,45,opk,34
+#8,Dune,Sci-Fi,Frank Herbert,₹450,₹360,1,,,,

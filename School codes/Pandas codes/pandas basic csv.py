@@ -1,0 +1,33 @@
+import pandas as pd
+df =  pd.read_csv(r"C:\Users\tempe\OneDrive\Documents\Codes college\data.csv")
+print(df.head())
+print()
+print(df.tail())
+print()
+print(df.info())
+print()
+print(df.columns)
+print()
+print(df.dtypes)
+print()
+print(df.shape)
+print()
+print(df.describe())
+print()
+print(df.loc[df['Department'] == 'CSE'])
+print()
+print(df.loc[df['Marks'] > 80])
+print()
+print(df.loc[df['Attendance'] < 75])
+print()
+df.loc[df['Marks'] >= 90, 'Grade'] = 'A'
+df.loc[df['Marks'] >= 80, 'Grade'] = 'B'
+df.loc[df['Marks'] >= 70, 'Grade'] = 'C'
+df.loc[df['Marks'] < 70, 'Grade'] = 'D'
+print(df)
+print()
+print(df['Marks'].max())
+print(df['Marks'].min())
+print(df['Marks'].mean())
+print()
+print(df.groupby('Departments').mean())
