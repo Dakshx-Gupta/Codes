@@ -10,5 +10,3 @@ A collection of coding practice solutions, coursework, and experimental scripts.
 - **Leet Code codes** — LeetCode practice solutions
 - **School codes** — programming exercises, data analysis, and mini-projects
 - **Selenium** — browser automation experiments
-
-The code is organized by platform or learning context and is primarily intended for practice and reference.
